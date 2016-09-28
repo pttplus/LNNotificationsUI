@@ -7,39 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		392230B31C3091E90070D863 /* LNNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3936B7EA19B90357007A3F6B /* LNNotificationsUI.framework */; };
-		392230B41C3091E90070D863 /* LNNotificationsUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3936B7EA19B90357007A3F6B /* LNNotificationsUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39867B7E19E5E8D300664D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B66DBE19B9020500BED640 /* Main.storyboard */; };
 		39B66DB719B9020500BED640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B66DB619B9020500BED640 /* main.m */; };
 		39B66DBA19B9020500BED640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B66DB919B9020500BED640 /* AppDelegate.m */; };
 		39B66DBD19B9020500BED640 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B66DBC19B9020500BED640 /* ViewController.m */; };
 		39B66DC219B9020500BED640 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B66DC119B9020500BED640 /* Images.xcassets */; };
 		39D646E719E5E4C60069C197 /* demo.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 39D646E619E5E4C60069C197 /* demo.aiff */; };
+		4C77CF2525730AE5E3E7D557 /* Pods_LNNotificationsUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF73EC6A4B92DCC032D3B9C /* Pods_LNNotificationsUIDemo.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		392230AF1C3090390070D863 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3936B7E519B90357007A3F6B /* LNNotificationsUI.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 39FC4F8219B8EFB400E45E37;
-			remoteInfo = LNNotificationsUI;
-		};
-		392230B51C3091E90070D863 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3936B7E519B90357007A3F6B /* LNNotificationsUI.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 39FC4F8219B8EFB400E45E37;
-			remoteInfo = LNNotificationsUI;
-		};
-		3936B7E919B90357007A3F6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3936B7E519B90357007A3F6B /* LNNotificationsUI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 39FC4F8319B8EFB400E45E37;
-			remoteInfo = LNNotificationsUI;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		392230B71C3091E90070D863 /* Embed Frameworks */ = {
@@ -48,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				392230B41C3091E90070D863 /* LNNotificationsUI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +30,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3936B7E519B90357007A3F6B /* LNNotificationsUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LNNotificationsUI.xcodeproj; path = ../LNNotificationsUI/LNNotificationsUI.xcodeproj; sourceTree = "<group>"; };
+		0E1C423545FE1A135AF84A31 /* Pods-LNNotificationsUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNNotificationsUIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNNotificationsUIDemo/Pods-LNNotificationsUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		15269B0A031492FACBCD8AEB /* Pods-LNNotificationsUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNNotificationsUIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNNotificationsUIDemo/Pods-LNNotificationsUIDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2BF73EC6A4B92DCC032D3B9C /* Pods_LNNotificationsUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LNNotificationsUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39867B7C19E5E89200664D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39B66DB119B9020500BED640 /* LNNotificationsUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNNotificationsUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B66DB519B9020500BED640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,27 +50,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				392230B31C3091E90070D863 /* LNNotificationsUI.framework in Frameworks */,
+				4C77CF2525730AE5E3E7D557 /* Pods_LNNotificationsUIDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3936B7E619B90357007A3F6B /* Products */ = {
+		370F7DBD76D2D2E65B70C92C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3936B7EA19B90357007A3F6B /* LNNotificationsUI.framework */,
+				2BF73EC6A4B92DCC032D3B9C /* Pods_LNNotificationsUIDemo.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		39B66DA819B9020500BED640 = {
 			isa = PBXGroup;
 			children = (
-				3936B7E519B90357007A3F6B /* LNNotificationsUI.xcodeproj */,
 				39B66DB319B9020500BED640 /* LNNotificationsUIDemo */,
 				39B66DB219B9020500BED640 /* Products */,
+				B859C4C7EBD8783513AF7EC6 /* Pods */,
+				370F7DBD76D2D2E65B70C92C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +107,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B859C4C7EBD8783513AF7EC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C423545FE1A135AF84A31 /* Pods-LNNotificationsUIDemo.debug.xcconfig */,
+				15269B0A031492FACBCD8AEB /* Pods-LNNotificationsUIDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,16 +123,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39B66DD119B9020500BED640 /* Build configuration list for PBXNativeTarget "LNNotificationsUIDemo" */;
 			buildPhases = (
+				78A42BA8CD11A9E0E101828D /* [CP] Check Pods Manifest.lock */,
 				39B66DAD19B9020500BED640 /* Sources */,
 				39B66DAE19B9020500BED640 /* Frameworks */,
 				39B66DAF19B9020500BED640 /* Resources */,
 				392230B71C3091E90070D863 /* Embed Frameworks */,
+				FDDEEE82DE08D764438D3E74 /* [CP] Embed Pods Frameworks */,
+				92BE1A80B42C9AB61BDCF415 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				392230B01C3090390070D863 /* PBXTargetDependency */,
-				392230B61C3091E90070D863 /* PBXTargetDependency */,
 			);
 			name = LNNotificationsUIDemo;
 			productName = LNNotificationsUIDemo;
@@ -178,28 +165,12 @@
 			mainGroup = 39B66DA819B9020500BED640;
 			productRefGroup = 39B66DB219B9020500BED640 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 3936B7E619B90357007A3F6B /* Products */;
-					ProjectRef = 3936B7E519B90357007A3F6B /* LNNotificationsUI.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				39B66DB019B9020500BED640 /* LNNotificationsUIDemo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		3936B7EA19B90357007A3F6B /* LNNotificationsUI.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = LNNotificationsUI.framework;
-			remoteRef = 3936B7E919B90357007A3F6B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		39B66DAF19B9020500BED640 /* Resources */ = {
@@ -214,6 +185,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78A42BA8CD11A9E0E101828D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92BE1A80B42C9AB61BDCF415 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNNotificationsUIDemo/Pods-LNNotificationsUIDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDDEEE82DE08D764438D3E74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNNotificationsUIDemo/Pods-LNNotificationsUIDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		39B66DAD19B9020500BED640 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -226,19 +245,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		392230B01C3090390070D863 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LNNotificationsUI;
-			targetProxy = 392230AF1C3090390070D863 /* PBXContainerItemProxy */;
-		};
-		392230B61C3091E90070D863 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LNNotificationsUI;
-			targetProxy = 392230B51C3091E90070D863 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		39B66DBE19B9020500BED640 /* Main.storyboard */ = {
@@ -331,6 +337,7 @@
 		};
 		39B66DD219B9020500BED640 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1C423545FE1A135AF84A31 /* Pods-LNNotificationsUIDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -348,6 +355,7 @@
 		};
 		39B66DD319B9020500BED640 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15269B0A031492FACBCD8AEB /* Pods-LNNotificationsUIDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
